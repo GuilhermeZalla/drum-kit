@@ -1,0 +1,75 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/**************/
+
+
+/* 1. Geral
+/* 2. Container
+/* 3. Main
+/* 4. Button
+/**************/
+
+
+/* 1. Geral
+/**************/
+
+body {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/**************/
+
+
+/* 2. Container
+/**************/
+
+.container {
+    text-align: center;
+    margin-top: 45vh;
+}
+
+
+/**************/
+
+
+/* 4. Container
+/**************/
+
+.key {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition-duration: all 0.07s;
+    cursor: pointer;
+}
+
+.playing {
+    outline: 3px solid #FFC600;
+    box-shadow: rgb(255 198 0) 0px 0px 7px 5px;
+    transform: scale(1.04);
+}
+
+.key>span {
+    display: block;
+    font-size: .90rem;
+    margin: 5px 0;
+    color: #FFC600;
+}
+
+
+/**************/
